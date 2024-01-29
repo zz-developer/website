@@ -11,7 +11,10 @@ hero:
       text: Projects
       link: /projects/
     - theme: alt
-      text: Memebers
+      text: Posts
+      link: /posts/
+    - theme: alt
+      text: Members
       link: /members/
 
 features:

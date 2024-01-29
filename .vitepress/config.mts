@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "ZHZX Dev",
+  title: "ZZDev",
   description: "Let's build from here",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

@@ -52,6 +52,15 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
     >
       <a class="back" href="/posts/"> ❮ &nbsp; 返回目录 </a>
     </template>
+    <template
+      #doc-before
+      v-if="
+        page.filePath.startsWith('projects/') &&
+        page.filePath !== 'projects/index.md'
+      "
+    >
+      <a class="back" href="/projects/"> ❮ &nbsp; 返回目录 </a>
+    </template>
   </DefaultTheme.Layout>
 </template>
 

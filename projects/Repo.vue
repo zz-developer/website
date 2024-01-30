@@ -10,10 +10,12 @@ const { user, repo } = defineProps<{ user: string; repo: string }>();
     target="_blank"
     style="display: block"
   >
-    <img
-      :src="`https://github-readme-stats.vercel.app/api/pin/?username=${user}&repo=${repo}${
-        isDark ? '&theme=dark' : ''
-      }`"
-    />
+    <ClientOnly>
+      <img
+        :src="`https://github-readme-stats.vercel.app/api/pin/?username=${user}&repo=${repo}${
+          isDark ? '&theme=dark' : ''
+        }`"
+      />
+    </ClientOnly>
   </a>
 </template>

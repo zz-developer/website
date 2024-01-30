@@ -61,7 +61,7 @@ const members = [
   {
     avatar: 'https://www.github.com/zvmsbackend.png',
     name: 'Earendil',
-    title: '2020级',
+    title: '2022级',
     links: [
       { icon: 'github', link: 'https://github.com/zvmsbackend' }
     ]

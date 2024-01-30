@@ -21,6 +21,7 @@ const { name } = defineProps<{ name: string }>();
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 70vw;
+  max-width: 900px;
 }
 </style>

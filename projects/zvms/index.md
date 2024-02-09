@@ -18,6 +18,13 @@ import RepoGroup from "../RepoGroup.vue";
 
 <RepoGroup name="v4">
 <Repo user="zvms" repo="zvms4-frontend" />
+<Repo user="zvms" repo="zvms4-backend" />
+</RepoGroup>
+
+<RepoGroup name="v4-utils">
+<Repo user="zvms" repo="zvms4-types-frontend" />
+<Repo user="zvms" repo="data-transforming" />
+<Repo user="zvms" repo="rsa-bcrypt-jwt-login-eg" />
 </RepoGroup>
 
 <RepoGroup name="v3">
@@ -39,7 +46,7 @@ import RepoGroup from "../RepoGroup.vue";
 <Repo user="ZhangZisu" repo="zvms-frontend" />
 </RepoGroup>
 
-<RepoGroup name="others">
+<RepoGroup name="utils">
 <Repo user="zvms" repo="SignupScript" />
 <Repo user="zvms" repo="zvms-weather-widget" />
 </RepoGroup>

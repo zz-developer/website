@@ -45,7 +45,7 @@ const members = [
   {
     avatar: 'https://www.github.com/so1aric.png',
     name: 'so1aric',
-    title: '2020级',
+    title: '2021级',
     links: [
       { icon: 'github', link: 'https://github.com/so1aric' }
     ]
